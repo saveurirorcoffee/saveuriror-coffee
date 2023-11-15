@@ -1,0 +1,135 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h4, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-coffee{
+    background-color: rgb(202 138 4);
+}
+
+div.z-index-99{
+    z-index: 99;
+}
+
+.navbar-fixed{
+    z-index: 1;top:0;left: 0;right: 0;bottom: 0;
+    background-color: rgba(0, 0, 0, 0.515);
+}
+
+.navbar{
+    font-size: 1.125rem;
+}
+
+.button-coffee{
+    background-color: rgb(202 138 4);
+}
+
+button.navbar-button-border{
+    border: 1px solid white;
+}
+
+.button-coffee:hover{
+    background-color: rgb(234 179 8);
+}
+
+.carousel-image{
+    height:900px;object-fit:cover;
+    width: 100%;
+}
+
+.carousel-header-container{
+    top: 250px;
+    z-index: 2; 
+    left: 3.75rem;
+}
+
+.carousel-header-container h3{
+    color: rgb(202 138 4);
+}
+
+.carousel-header-container h1{
+    line-height:65px;
+}
+
+.btn-view-menu{
+    border: 2px solid rgb(202 138 4);background-color: rgba(0, 0, 0, 0.122);
+}
+
+.btn-view-menu:hover{
+    background-color: rgb(234 179 8);
+}
+
+.custom-font{
+    font-size: 20px;
+}
+
+.tagline-container{
+    background-color: #ca8a04;
+}
+
+.tagline-container p {
+    padding-left: 20px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.image-our-story{
+    height: 250px
+}
+
+@media (min-width: 776px) {
+    body{
+        font-size: 18px;
+    }
+
+    .image-our-story{
+        height: 450px
+    }
+
+    .tagline-container{
+        height: 400px;
+    }
+}
+
+@media (min-width: 48rem) {
+    .carousel-header-container{
+        left: 12rem;
+    }
+
+    .custom-font{
+        font-size: 36px;
+    }
+
+    .tagline-container p {
+        width: 260px;
+    }
+ }
+
+@media (min-width: 62rem) {
+    .carousel-header-container{
+        left: 17rem;
+        display: block;
+    }
+
+    .tagline-container p {
+        width: 400px;
+    }
+}
+
+@media (min-width: 75rem) { 
+    .carousel-header-container{
+        left: 22rem;
+    }
+}
+
+@media (min-width: 87.5rem) { 
+    .carousel-header-container{
+        left: 30rem;
+    }
+}
