@@ -18,7 +18,7 @@ const OurProductLandingPage = () => {
                 link="/404"
             />
             <CardLandingPage
-                image="images/5.jpg"
+                image="images/product.jpeg"
                 title="Pangalengan Ground Arabica Coffee - Saveurior Coffee - Varian Original"
                 content="Ready-to-brew coffee variants provide convenience i n enjoying the distinctive flavour of coffee."
                 price="Rp58.000"
