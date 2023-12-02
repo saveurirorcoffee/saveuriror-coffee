@@ -21,7 +21,7 @@ const OurProductLandingPage = () => {
                 image="images/product.jpeg"
                 title="Pangalengan Ground Arabica Coffee - Saveurior Coffee - Varian Original"
                 content="Ready-to-brew coffee variants provide convenience i n enjoying the distinctive flavour of coffee."
-                price="Rp58.000"
+                price={<p><span style={{ textDecoration: "line-through" }}>Rp 58.000</span>&nbsp;<span>Rp 40.250</span></p>}
                 link="https://www.marketekspor.com/product/kopi-bubuk-pangalengan-saveurior-coffee-varian-original/"
                 extraButton={{ link: "https://shp.ee/drmmuic", label: "Order on Shopee" }}
             />
