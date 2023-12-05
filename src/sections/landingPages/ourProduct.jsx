@@ -19,7 +19,7 @@ const OurProductLandingPage = () => {
             />
             <CardLandingPage
                 image="images/product.jpeg"
-                title=<b>"Arabica Pangalengan Drip Coffee"</b>
+                title={<b>Arabica Pangalengan Drip Coffee</b>}
                 content="Enjoy the convenience of Arabica Drip Coffee with its handy drip bag packaging. Just pour hot water over the drip bag for a rich and hassle-free coffee experience!"
                 price={<p><span style={{ textDecoration: "line-through" }}>Rp 58.000</span>&nbsp;<span>Rp 40.250</span></p>}
                 link="https://www.marketekspor.com/product/kopi-bubuk-pangalengan-saveurior-coffee-varian-original/"
