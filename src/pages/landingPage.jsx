@@ -135,7 +135,7 @@ const LandingPage = () => {
           <p><i class="fa fa-phone" aria-hidden="true"></i>+628 2229 5902 40</p>
         </div>
         <div className="col-md-4 ps-md-5">
-          <p><i class="fa fa-envelope" aria-hidden="true"></i> seveuriorcoffee@gmail.com</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> saveuriorcoffee@gmail.com</p>
         </div>
         <div className="col-md-4 ps-md-5">
           <p><img src='https://cdn.icon-icons.com/icons2/2037/PNG/512/ig_instagram_media_social_icon_124260.png' width="20px" height="20px" className='rounded me-1'/>saveurior.coffee</p>
