@@ -6,7 +6,7 @@ const TaglineLandingPage = () => {
             <TaglineContentLandingPage
                 icon="fa fa-shopping-cart"
                 title="Easy To Order"
-                content="Our products are very easy to order. What are you waiting for, click order now. Satisfaction Guaranteed"
+                content="Our products are very easy to order. What are you waiting for? Click order now! Satisfaction Guaranteed!"
             />
             <TaglineContentLandingPage
                 icon="fa fa-paper-plane"
@@ -16,7 +16,7 @@ const TaglineLandingPage = () => {
             <TaglineContentLandingPage
                 icon="fa fa-coffee"
                 title="Quality Coffee"
-                content="We always maintain the quality and flavour of our coffee so that it is preserved when it reaches your home."
+                content="We always maintain the quality and flavor of our coffee so that it is preserved when it reaches your home."
             />
         </div>
     )
