@@ -15,7 +15,7 @@ const Gallery = () => {
     return (
         <>
             {galleries && galleries.map((image) =>
-                <ImageGallery key={image.id} image={image.path} />
+                <ImageGallery key={image.id} image="images/1 CP.jpeg" />
             )}
         </>
     )
