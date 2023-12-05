@@ -20,7 +20,7 @@ const OurProductLandingPage = () => {
             <CardLandingPage
                 image="images/product.jpeg"
                 title={<b>Arabica Pangalengan Drip Coffee</b>}
-                content="Enjoy hassle-free coffee with our easy-to-use drip bag packaging. Simply add hot water for a rich coffee-drinking experience!"
+                content="This coffee is designed to offer convenience in enjoying coffee with its easy-to-use drip bag packaging."
                 price={<p><span style={{ textDecoration: "line-through" }}>Rp 58.000</span>&nbsp;<span>Rp 40.250</span></p>}
                 link="https://www.marketekspor.com/product/kopi-bubuk-pangalengan-saveurior-coffee-varian-original/"
                 extraButton={{ link: "https://shp.ee/drmmuic", label: "Order on Shopee" }}
