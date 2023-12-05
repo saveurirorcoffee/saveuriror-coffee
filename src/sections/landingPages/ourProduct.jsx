@@ -5,14 +5,14 @@ const OurProductLandingPage = () => {
             <h1 className='text-center mb-5'>Our Featured Products</h1>
             <CardLandingPage
                 image="https://th.bing.com/th/id/OIP.YapA0lZmKl3H0lKfvWTNVwHaG_?pid=ImgDet&rs=1"
-                title="Arabica Greenbeans Coffee"
+                title={<b>Arabica Greenbeans Coffee</b>}
                 content="Premium unroasted coffee beans for perfect brews. Ideal for coffee shop partnerships. Unleash their quality potential!"
                 price="Coming soon"
                 link="/404"
             />
             <CardLandingPage
                 image="https://th.bing.com/th/id/R.da3e3744b64a85a769a5c01c7f18e1cc?rik=QXmQtOuTwAHu7A&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fb%2fb5%2fMedium_roasted_Arabica_coffee_beans.jpg&ehk=Zf75HiIhszfmZwZa9dlaof9TGDTJ6RkldoCA9h%2fjq4g%3d&risl=1&pid=ImgRaw&r=0"
-                title="<b>Arabica Coffee Roasted Beans</b>"
+                title={<b>Arabica Coffee Roasted Beans</b>}
                 content="Unleash the bold flavors of meticulously roasted coffee beans, crafted for a rich and deep taste. Elevate your coffee experience sip by sip!"
                 price="Coming soon"
                 link="/404"
